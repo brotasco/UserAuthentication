@@ -32,7 +32,6 @@ class App extends Component {
         {this.state.components.input.shown ? true : 
           <InputButton 
             user={user} 
-            onClick={() => this.checkUser()}
             value="Submit"
           />
         }
