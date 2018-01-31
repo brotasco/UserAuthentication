@@ -16,6 +16,7 @@ const checkUserAuth = (app, user) => {
             }
         })
     }
+    console.log("Testing Git!");
     console.log(user);
     console.log(app.state);
 }
